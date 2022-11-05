@@ -1,0 +1,48 @@
+body {
+    margin: 0rem;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer" ;
+    grid-template-rows: 30px 1fr 40px;
+    grid-template-columns: 1fr 150px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    
+}
+
+header {
+
+    grid-area: header;
+    background-color: rgb(88, 83, 83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+}
+
+main {
+
+    grid-area: main;
+    background-color: rgb(91, 91, 97);
+    padding: 0 8px;
+
+}
+
+aside {
+    grid-area: aside;
+    background-color: gray;
+
+}
+
+footer {
+    grid-area: footer;
+    background-color: aliceblue;
+
+}
+
+iframe {
+    margin: 200px;
+}
