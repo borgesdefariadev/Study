@@ -17,13 +17,39 @@
  
 // usando a forma if ou else 
 
-let temperature = 35
-if(temperature>=37.5){ 
-    console.log('febre alta')
+// let temperature = 35
+// if(temperature>=37.5){ 
+//     console.log('febre alta')
 
-} else if(temperature <37.5 && temperature >=37){ console.log('febre moderada')
+// } else if(temperature <37.5 && temperature >=37){ console.log('febre moderada')
 
-} else {
-    console.log('saudável')
+// } else {
+//     console.log('saudável')
+// }
+
+function calculate(number1, operator, number2) {
+    let result
+
+
+switch (operator) {
+    case'+':
+        result = number1 + number2
+        break
+    case '-':
+        result = number1 - number2
+        break
+    case '*':
+        result = number1 * number2
+        break
+    case '/': 
+        result = number1 / number2   
+        break
+    default:
+        console.log('não implementado')
+        break
 }
 
+return result
+}
+
+console.log(calculate(50, '*', 20))

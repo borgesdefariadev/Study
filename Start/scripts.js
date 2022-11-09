@@ -89,5 +89,4 @@ let index = techs.indexOf('css')
 let pao = true
 let queijo = true
 
-const niceBreakfast = pao && queijo ? 'café top' : 'café ruim' 
-
+const niceBreakfast = pao && queijo ? 'café top' : 'café ruim';
