@@ -26,3 +26,4 @@ if(temperature>=37.5){
 } else {
     console.log('saudável')
 }
+
