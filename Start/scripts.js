@@ -56,9 +56,9 @@ function escreverPoema(){
 } 
 
 const ric = new Person("ric")
-const mayk = new Person("mayk")
+const mayk = new Person("duck")
 console.log('ric')
-console.log('mayk')
+console.log('duck')
 
 
 
@@ -66,19 +66,28 @@ console.log('mayk')
 // Manipulando array
 
 let techs = ["js", "html", "css"]
-// adicionar um item no fim
+// // adicionar um item no fim
 techs.push("nodejs")
-//adicionar um item no começo
+// //adicionar um item no começo
 techs.unshift("php")
-//remover do fim
+// //remover do fim
 techs.pop()
-//remover do começo
+// //remover do começo
 techs.shift()
-//pegar somente alguns elementos do array
+// //pegar somente alguns elementos do array
 console.log(techs.slice(1, 3))
-//remover 1 ou mais itens do array
+// //remover 1 ou mais itens do array
 techs.splice(2)
-//encontrar a posição do elemento de array
+// //encontrar a posição do elemento de array
 let index = techs.indexOf('css')
 
+
+// operador condicional ternário
+// '?' se
+// ':' senão
+
+let pao = true
+let queijo = true
+
+const niceBreakfast = pao && queijo ? 'café top' : 'café ruim' 
 
