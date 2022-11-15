@@ -1,6 +1,5 @@
 // sistema de notas escolares
 
-let score = 60
 let scoreA = score >= 90 && score <=100 
 let scoreB = score >=80 && score <=89
 let scoreC = score >=70 && score <=79
@@ -11,8 +10,7 @@ let scoreFinal;
 
 
 
-
-if (scoreA >= 90 && score <=100) {
+if (scoreA) {
     scoreFinal = "A"
 } else if (scoreB) {
     scoreFinal = "B"
