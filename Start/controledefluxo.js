@@ -1,5 +1,6 @@
 // sistema de notas escolares
 
+let score = 75
 let scoreA = score >= 90 && score <=100 
 let scoreB = score >=80 && score <=89
 let scoreC = score >=70 && score <=79
