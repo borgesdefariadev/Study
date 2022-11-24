@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.item:nth-child(1) {
+    order: 2;
+}
