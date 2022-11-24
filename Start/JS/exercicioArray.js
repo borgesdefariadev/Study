@@ -54,13 +54,30 @@ for(let category of booksByCategory) {
     
 }
 
-function countAuthors()
+function countAuthors() {
 let authors = [];
 
 for(let category of booksByCategory) {
-for(let book of category.books)
-    if(authors.indexOf(book.author) == -1) authors.push(book.author);
+    for(let book of category.books)
+        if(authors.indexOf(book.author) == -1) { authors.push(book.author);
+       }
+}
 
-    console.log("Total de autores", authors.length)
+console.log("Total de autores: ", authors.length)
 
 }
+
+countAuthors();
+
+function booksOfAugustoCury() {
+    let authors = [];
+    
+    for(let category of booksByCategory) {
+        for(let book of category.books)
+            if(book.author === "Augusto Cury") { authors.push(book.title)
+           }
+    }
+    
+    console.log("Total de livros do autor: ", authors.length)
+    
+    }

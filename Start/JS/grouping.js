@@ -7,8 +7,8 @@
 * relacional                    < <= > >=
 * igualdade                     == != === !==
 * AND                           && 
-* OR                            ||
-* condicional                   ?:
+* OR                            ||                             
+* condicional                   ?:                
 * assignment (atribuição)       = += -= *= % = */
 
 // controle de fluxo de aplicação 
