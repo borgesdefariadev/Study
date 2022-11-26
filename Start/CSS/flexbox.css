@@ -5,10 +5,10 @@
 
 .container {
     display: flex;
-    flex: 1;
-    flex-flow: row wrap;
+    flex: 1 0 40px; /* shorthand sequencia: grow shrink basis */
+    flex-flow: row wrap; 
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     height: 100%;
     width: 100%;
 }
@@ -17,12 +17,13 @@
     order: 2;
     margin-top: 20px;
     margin-bottom: 20px;
+    flex-shrink: 1;
     
 }
 
 .item {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
     height: 100%;

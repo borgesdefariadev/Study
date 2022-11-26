@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header { 
+
+    background-color: gray;
+    padding: 50px;
+
+}
+
+nav {
+    display: flex;
+    gap: .8em;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
