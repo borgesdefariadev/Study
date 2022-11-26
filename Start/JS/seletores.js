@@ -23,18 +23,18 @@
 // element.style.backgroundColor = 'green'
 
 
-// console.log(element.style.backgroundColor);
+console.log(element.style.backgroundColor);
 
-// const element = document.querySelector('body script')
+const element = document.querySelector('body script')
 
-// console.log(element.nextElementSibling)
+console.log(element.nextElementSibling)
 
 // criar elementos na pagina 
 
 
 
 // const body = document.querySelector('body')
-// body.append(div)
+body.append(div)
 
 // insert before
 const div = document.createElement('div');
