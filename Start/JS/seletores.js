@@ -23,24 +23,28 @@
 // element.style.backgroundColor = 'green'
 
 
-console.log(element.style.backgroundColor);
+// console.log(element.style.backgroundColor);
 
-const element = document.querySelector('body script')
+// const element = document.querySelector('body script')
 
-console.log(element.nextElementSibling)
+// console.log(element.nextElementSibling)
 
 // criar elementos na pagina 
 
 
 
+// // const body = document.querySelector('body')
+// body.append(div)
+
+// // insert before
+// const div = document.createElement('div');
+// div.innerText = "hello World!"
+
 // const body = document.querySelector('body')
-body.append(div)
+// const header = body.querySelector('header')
 
-// insert before
-const div = document.createElement('div');
-div.innerText = "hello World!"
+// body.insertBefore(div, header.nextSibling)
 
-const body = document.querySelector('body')
-const header = body.querySelector('header')
-
-body.insertBefore(div, header.nextSibling)
+function print() {
+    console.log('print')
+}
