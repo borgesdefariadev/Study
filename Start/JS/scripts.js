@@ -43,7 +43,7 @@ const animals = [
  * keyword 'this'
  */
 
-function Person(name){
+function person(name){
     this.name = name
     this.walk = function() {
         return 'andando'
