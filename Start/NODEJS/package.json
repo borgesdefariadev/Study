@@ -10,5 +10,11 @@
     "teste"
   ],
   "author": "Ricardo Borges",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cfonts": "^3.1.1",
+    "inquirer": "^9.1.4",
+    "moment": "^2.29.4",
+    "opn": "^6.0.0"
+  }
 }
