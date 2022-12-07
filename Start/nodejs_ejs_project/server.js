@@ -4,7 +4,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    const items =[
+    const items = [
         {
             title: 'D',
         message: 'Desenvolver aplicaçoes/serviços de forma facil'

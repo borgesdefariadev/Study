@@ -5,7 +5,7 @@
 
  <body class="container">
 
-  <%- include('../partials/header'), {pagina: 'about', pagina: 'home'}); %> 
+  <%- include('../partials/header', {pagina: 'about', pagina: 'home'}); %> 
 
     <main>
         <div class="jumbotron">
@@ -15,13 +15,11 @@
             </div>
           </div>
           <ul>
-            <%- qualities.forEach(function(quality){
-              
-            }); %> 
+            <%- qualities.forEach(function(quality){ %> 
             <li>
-              <strong>quality.title</quality></strong> title.message
+              <strong> <%= quality.title %></quality></strong> title.message
             </li>
-            <%-  %>
+            <%- }); %>
           </ul>
 
 
