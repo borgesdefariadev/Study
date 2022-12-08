@@ -1,83 +1,26 @@
 
+const defaultArray = [
+        {
+            name: 'default1',
+            grade: 10
+        },
 
-const booksByCategory = [
-    {
-        category: "wealthy",
-        books: [
-            {
-                title: "O segredo da mente milionaria",
-                author: "T. Harv Eker",
+        {
+            name: 'default2',
+            grade: 9,
+        },
+        {
+            name: 'default3',
+            grade: 8,
+        },
+        {
+            name: 'default4',
+            grade:  7,
+        },
+        {
+            name: 'default5'[8, true, 'example'], 
+            grade: 6,
+        },
+];
 
-            },
-            {
-                title: "O Homem mais rico da babilonia",
-                author: "George S. Clason"
-            },
-            {   
-                title: "Pai Rico, Pai Pobre", 
-                author: "Robert T. Kyosaky & Sharon L. Lechter"
-
-            },
-
-
-        ],        
-
-       
-
-    },
-    {
-        category: "inteligencia emocional",
-        books: [
-            {
-                title: "Você é Insubstituível",
-                author: "Augusto Cury",
-            },
-            {
-                title: "Ansiedade – Como enfrentar o mal do século",
-                author: "Augusto Cury",
-            },
-            {
-                title: "Os 7 hábitos das pessoas altamente eficazes",
-                author: "Stephen R. Covey",
-            }   
-
-                ]
-
-    }
-]
-
-const totalCategories = booksByCategory.length
-
-for(let category of booksByCategory) {
-    console.log('Total de livros da categoria', category.category)
-    console.log(category.books.length)
-    
-}
-
-function countAuthors() {
-let authors = [];
-
-for(let category of booksByCategory) {
-    for(let book of category.books)
-        if(authors.indexOf(book.author) == -1) { authors.push(book.author);
-       }
-}
-
-console.log("Total de autores: ", authors.length)
-
-}
-
-countAuthors();
-
-function booksOfAugustoCury() {
-    let authors = [];
-    
-    for(let category of booksByCategory) {
-        for(let book of category.books)
-            if(book.author === "Augusto Cury") { authors.push(book.title)
-           }
-    }
-    
-    console.log("Total de livros do autor: ", authors.length)
-    
-    }
+console.log(defaultArray);
