@@ -18,9 +18,10 @@ const defaultArray = [
             grade:  7,
         },
         {
-            name: 'default5'[8, true, 'example'], 
+            name: 'default5',
             grade: 6,
         },
+        [8, true, false, 'default'],
 ];
 
-console.log(defaultArray);
+console.log(defaultArray[5][typeof.2]);
