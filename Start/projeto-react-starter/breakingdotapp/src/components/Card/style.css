@@ -1,0 +1,24 @@
+.card {
+  height: 30px;
+  width: 50%;
+
+  background: rgb(145, 3, 228);
+  color: #fafafa;
+
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hour {
+  margin-left: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  margin-right: 230px;
+  display: flex;
+}
