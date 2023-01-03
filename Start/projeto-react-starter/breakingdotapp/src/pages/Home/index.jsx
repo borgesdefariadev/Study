@@ -22,6 +22,7 @@ export function Home() {
   return (
     <div className="container">
       <h1>Test Page</h1>
+      <img href="https://avatars.githubusercontent.com/u/101419193?v=4"></img>
       <input
         type="text"
         placeholder="Digite o número..."
