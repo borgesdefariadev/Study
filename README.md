@@ -1,1 +1,1 @@
-# Study Projects EJS, CSS, Javascript, HTML
+# Study Projects EJS, CSS, Javascript, Typescript, HTML etc 
