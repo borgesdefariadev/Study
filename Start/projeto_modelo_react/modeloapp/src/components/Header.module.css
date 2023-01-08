@@ -3,3 +3,9 @@
   color: #fff;
   height: 80px;
 }
+
+.header strong {
+  margin-top: 50px;
+  padding: 100px;
+  margin-left: 200px;
+}
