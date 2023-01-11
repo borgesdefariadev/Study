@@ -12,7 +12,10 @@ export function Home() {
 
       <div className={styles.wrapper}>
         <Sidebar />
-        <Post />
+        <main>
+          <Post />
+          <Post />
+        </main>
       </div>
     </div>
   );

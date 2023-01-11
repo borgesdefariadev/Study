@@ -1,3 +1,4 @@
+import { Comments } from "../comments/Comments";
 import styles from "./Post.module.css";
 
 export function Post() {
@@ -22,16 +23,19 @@ export function Post() {
         <p>Fala galeraa 👋</p>
 
         <p>
-          Acabei de adicionar mais uma arte no meu portifólio. É uma tattoo que
-          fiz essa semana no estúdio. 🚀
+          Acabei de adicionar mais uma projeto no meu portifólio. É uma
+          aplicação de saúde e bem estar que fiz em parceria com mais dois
+          colaboradores. 🚀
+        </p>
+        <p>@devstecks</p>
+        <p> @wallacecamarinha</p>
+        <p>
+          <a href="">👉 github.com/borgesdefariadev</a>
         </p>
 
         <p>
-          <a href="">👉 instagram.com/ricardoborgestattoo</a>
-        </p>
-
-        <p>
-          <a href="">#tattoo</a> <a href="">#arte</a> <a href="">#blackwork</a>{" "}
+          <a href="">#programming</a> <a href="">#developer</a>{" "}
+          <a href="">#technology</a>{" "}
         </p>
       </div>
       <form className={styles.commentForm}>
@@ -41,6 +45,9 @@ export function Post() {
 
         <button type="submit">Publicar</button>
       </form>
+      <div className={styles.commentList}>
+        <Comments />
+      </div>
     </article>
   );
 }
