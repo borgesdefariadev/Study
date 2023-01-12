@@ -14,7 +14,6 @@ export function Home() {
         <Sidebar />
         <main>
           <Post />
-          <Post />
         </main>
       </div>
     </div>
